@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D47CB72003EF3400FB8185 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D47CB42003EF3400FB8185 /* MKTableViewCell.swift */; };
+		04D47CB82003EF3400FB8185 /* MKListAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D47CB52003EF3400FB8185 /* MKListAlert.swift */; };
+		1E3C5119B0E225D31A58A3393F09F377 /* Pods-FlyAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 492753B78E4EA7D5A39C5535406B10EE /* Pods-FlyAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D1652D22C696E22D928F9FF8723AB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7EBAF94F415A18D4AE3252A1281B5209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A93EE07605C42DBA3A5E149CF0ACCB8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C685A318E2C3268F95E89A8328D8ACF8 /* Pods-FlyAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274B06033E715107BC5AB916A14D564C /* Pods-FlyAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1DB920C99BFAA471D169A472E016532 /* Pods-FlyAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 597C3E1FAEA8F6592CB3D975B8565145 /* Pods-FlyAlert_Example-dummy.m */; };
+		EAB0122F9A4F9E5F9743BE0BB8CD74DB /* Pods-FlyAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B720C0987F2BE62A76AAD0EC4ACD1F8E /* Pods-FlyAlert_Tests-dummy.m */; };
+		F4FCDE186AAA67F691752BE5FDA177BF /* FlyAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F34F2D04BC30CBE52F716FFBFD76D83C /* FlyAlert-dummy.m */; };
+		F7D4F9AE178F0E4F494E469042451108 /* FlyAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F2BFDB6DFEE68EFA4E735778C3AE29 /* FlyAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E5F02BF41C7B418047628738B816D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472AF1D36595E2D1EF27509727CB2771;
+			remoteInfo = FlyAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D47CB32003EF3400FB8185 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		04D47CB42003EF3400FB8185 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
+		04D47CB52003EF3400FB8185 /* MKListAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKListAlert.swift; sourceTree = "<group>"; };
+		04D47CB62003EF3400FB8185 /* MKTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKTableViewCell.xib; sourceTree = "<group>"; };
+		172F29EFEF3063D9BB7E6639EBBF1A0A /* Pods-FlyAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyAlert_Tests-resources.sh"; sourceTree = "<group>"; };
+		274B06033E715107BC5AB916A14D564C /* Pods-FlyAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2CFDA6BC771B4E10E191CEC98C08CBA2 /* Pods-FlyAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlyAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		2EA29195F07284D62A2062D5BBA33E4F /* Pods_FlyAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7E2E44712A55952B5849B777AF1251 /* Pods-FlyAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30D47C718DAF4D0C383437468A648CA4 /* Pods-FlyAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3BBBFA5CC0FF1D13E5D846C1F02A3776 /* Pods_FlyAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F2BFDB6DFEE68EFA4E735778C3AE29 /* FlyAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlyAlert-umbrella.h"; sourceTree = "<group>"; };
+		492753B78E4EA7D5A39C5535406B10EE /* Pods-FlyAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		4A50E1EA842588635EDFD542F0C2DC61 /* Pods-FlyAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlyAlert_Example.modulemap"; sourceTree = "<group>"; };
+		53A3045D0595DB4830C1F5D68017CA6B /* Pods-FlyAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		597C3E1FAEA8F6592CB3D975B8565145 /* Pods-FlyAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		59FFB4E78F8CBBF302F624D7979D5745 /* Pods-FlyAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		789EFCF3C185CACA2D11D62510A2386E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837B54E1CA47CF1138E062839A1B18EE /* FlyAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlyAlert.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		992D532371E907D7DC2D56759D3A5EA1 /* FlyAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlyAlert-prefix.pch"; sourceTree = "<group>"; };
+		B720C0987F2BE62A76AAD0EC4ACD1F8E /* Pods-FlyAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		C5E8DCBA46C39B62CEF748F25B9FAA98 /* Pods-FlyAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6CC43E028F36DB756657F8A7AE22D8C /* Pods-FlyAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFD201514AFA86D9C2A08A1AB944925A /* FlyAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlyAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F4D88F28C234AAAFB46A5AE455D02D /* Pods-FlyAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDCB64CF4CCA15F8F820E0B8FAD024FB /* Pods-FlyAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E676734F17A1CE02D68CFFE8753793F4 /* Pods-FlyAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E8119A2E985BDC1C120D84EA7A70C9AA /* FlyAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FlyAlert.modulemap; sourceTree = "<group>"; };
+		ECA8F70BE6546310E732F92D5B5CE922 /* Pods-FlyAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyAlert_Example-resources.sh"; sourceTree = "<group>"; };
+		EE31D1E924CF0BEFC04508E4DF7BD3F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28F96FD8C6358B32EF00AAE20EE563C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34F2D04BC30CBE52F716FFBFD76D83C /* FlyAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlyAlert-dummy.m"; sourceTree = "<group>"; };
+		F50A8B7B57CF6BE8B85758F10D0C3C0B /* Pods-FlyAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		646B76CA8AE693B1A996C4B616DA3698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1652D22C696E22D928F9FF8723AB10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D8B7D6212D97B6050DBC979E3EC600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93EE07605C42DBA3A5E149CF0ACCB8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42DA92193575D064297BE17EA468E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBAF94F415A18D4AE3252A1281B5209 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F83B7DF8FD673A5B2317A17FAC249EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				317C2986A047FC67A4C4DDDE836C116B /* FlyAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		317C2986A047FC67A4C4DDDE836C116B /* FlyAlert */ = {
+			isa = PBXGroup;
+			children = (
+				04D47CB52003EF3400FB8185 /* MKListAlert.swift */,
+				04D47CB42003EF3400FB8185 /* MKTableViewCell.swift */,
+				04D47CB62003EF3400FB8185 /* MKTableViewCell.xib */,
+				04D47CB32003EF3400FB8185 /* Poppins-SemiBold.ttf */,
+				D70F73619AC698BC1BAA8D2C446996C1 /* Support Files */,
+			);
+			name = FlyAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51B7907098A947B99FC9B7CE0B0A94EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD201514AFA86D9C2A08A1AB944925A /* FlyAlert.framework */,
+				3BBBFA5CC0FF1D13E5D846C1F02A3776 /* Pods_FlyAlert_Example.framework */,
+				2EA29195F07284D62A2062D5BBA33E4F /* Pods_FlyAlert_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529FA70C3CAFA3D6A456B19490AC8CD6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8CED02A2086C8F97B1A7F65E2FAD5 /* Pods-FlyAlert_Example */,
+				615A265AB663B12C48D2BEFC76634857 /* Pods-FlyAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		615A265AB663B12C48D2BEFC76634857 /* Pods-FlyAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				789EFCF3C185CACA2D11D62510A2386E /* Info.plist */,
+				2CFDA6BC771B4E10E191CEC98C08CBA2 /* Pods-FlyAlert_Tests.modulemap */,
+				2F7E2E44712A55952B5849B777AF1251 /* Pods-FlyAlert_Tests-acknowledgements.markdown */,
+				C5E8DCBA46C39B62CEF748F25B9FAA98 /* Pods-FlyAlert_Tests-acknowledgements.plist */,
+				B720C0987F2BE62A76AAD0EC4ACD1F8E /* Pods-FlyAlert_Tests-dummy.m */,
+				30D47C718DAF4D0C383437468A648CA4 /* Pods-FlyAlert_Tests-frameworks.sh */,
+				172F29EFEF3063D9BB7E6639EBBF1A0A /* Pods-FlyAlert_Tests-resources.sh */,
+				274B06033E715107BC5AB916A14D564C /* Pods-FlyAlert_Tests-umbrella.h */,
+				D4F4D88F28C234AAAFB46A5AE455D02D /* Pods-FlyAlert_Tests.debug.xcconfig */,
+				DDCB64CF4CCA15F8F820E0B8FAD024FB /* Pods-FlyAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-FlyAlert_Tests";
+			path = "Target Support Files/Pods-FlyAlert_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F83B7DF8FD673A5B2317A17FAC249EF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				51B7907098A947B99FC9B7CE0B0A94EC /* Products */,
+				529FA70C3CAFA3D6A456B19490AC8CD6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1D8CED02A2086C8F97B1A7F65E2FAD5 /* Pods-FlyAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EE31D1E924CF0BEFC04508E4DF7BD3F2 /* Info.plist */,
+				4A50E1EA842588635EDFD542F0C2DC61 /* Pods-FlyAlert_Example.modulemap */,
+				59FFB4E78F8CBBF302F624D7979D5745 /* Pods-FlyAlert_Example-acknowledgements.markdown */,
+				C6CC43E028F36DB756657F8A7AE22D8C /* Pods-FlyAlert_Example-acknowledgements.plist */,
+				597C3E1FAEA8F6592CB3D975B8565145 /* Pods-FlyAlert_Example-dummy.m */,
+				53A3045D0595DB4830C1F5D68017CA6B /* Pods-FlyAlert_Example-frameworks.sh */,
+				ECA8F70BE6546310E732F92D5B5CE922 /* Pods-FlyAlert_Example-resources.sh */,
+				492753B78E4EA7D5A39C5535406B10EE /* Pods-FlyAlert_Example-umbrella.h */,
+				E676734F17A1CE02D68CFFE8753793F4 /* Pods-FlyAlert_Example.debug.xcconfig */,
+				F50A8B7B57CF6BE8B85758F10D0C3C0B /* Pods-FlyAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-FlyAlert_Example";
+			path = "Target Support Files/Pods-FlyAlert_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D70F73619AC698BC1BAA8D2C446996C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8119A2E985BDC1C120D84EA7A70C9AA /* FlyAlert.modulemap */,
+				837B54E1CA47CF1138E062839A1B18EE /* FlyAlert.xcconfig */,
+				F34F2D04BC30CBE52F716FFBFD76D83C /* FlyAlert-dummy.m */,
+				992D532371E907D7DC2D56759D3A5EA1 /* FlyAlert-prefix.pch */,
+				41F2BFDB6DFEE68EFA4E735778C3AE29 /* FlyAlert-umbrella.h */,
+				F28F96FD8C6358B32EF00AAE20EE563C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FlyAlert";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EBE1EA840AFA2D924F16E8113DF5E6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D4F9AE178F0E4F494E469042451108 /* FlyAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E8869AF953402C2935B6E7FBC639FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3C5119B0E225D31A58A3393F09F377 /* Pods-FlyAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F410B0C078D638FA533D83D70FC019E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C685A318E2C3268F95E89A8328D8ACF8 /* Pods-FlyAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27CC3D383D6E9763C8D51F21E62BB640 /* Pods-FlyAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4C2EA7FC4BF6BE4A3D615408A1DA7B /* Build configuration list for PBXNativeTarget "Pods-FlyAlert_Tests" */;
+			buildPhases = (
+				34529ADA347781F788998B27E08C7CEF /* Sources */,
+				646B76CA8AE693B1A996C4B616DA3698 /* Frameworks */,
+				F410B0C078D638FA533D83D70FC019E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlyAlert_Tests";
+			productName = "Pods-FlyAlert_Tests";
+			productReference = 2EA29195F07284D62A2062D5BBA33E4F /* Pods_FlyAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		472AF1D36595E2D1EF27509727CB2771 /* FlyAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DB95EF831D9B56E2BA510B3B992A1E /* Build configuration list for PBXNativeTarget "FlyAlert" */;
+			buildPhases = (
+				9079A66A2026705E7E9881974789CEE6 /* Sources */,
+				B4D8B7D6212D97B6050DBC979E3EC600 /* Frameworks */,
+				4EBE1EA840AFA2D924F16E8113DF5E6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyAlert;
+			productName = FlyAlert;
+			productReference = CFD201514AFA86D9C2A08A1AB944925A /* FlyAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0377100F31D0E5D44628948E8430187 /* Pods-FlyAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD246A5788D71EBBB70DD171E7F61973 /* Build configuration list for PBXNativeTarget "Pods-FlyAlert_Example" */;
+			buildPhases = (
+				025298177CA6DB2AE542108A8580D8EF /* Sources */,
+				C42DA92193575D064297BE17EA468E1E /* Frameworks */,
+				73E8869AF953402C2935B6E7FBC639FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866EF0FFB53295F0EF21B3299725FD89 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlyAlert_Example";
+			productName = "Pods-FlyAlert_Example";
+			productReference = 3BBBFA5CC0FF1D13E5D846C1F02A3776 /* Pods_FlyAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					472AF1D36595E2D1EF27509727CB2771 = {
+						LastSwiftMigration = 0920;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 51B7907098A947B99FC9B7CE0B0A94EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				472AF1D36595E2D1EF27509727CB2771 /* FlyAlert */,
+				B0377100F31D0E5D44628948E8430187 /* Pods-FlyAlert_Example */,
+				27CC3D383D6E9763C8D51F21E62BB640 /* Pods-FlyAlert_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025298177CA6DB2AE542108A8580D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DB920C99BFAA471D169A472E016532 /* Pods-FlyAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34529ADA347781F788998B27E08C7CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB0122F9A4F9E5F9743BE0BB8CD74DB /* Pods-FlyAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9079A66A2026705E7E9881974789CEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D47CB82003EF3400FB8185 /* MKListAlert.swift in Sources */,
+				F4FCDE186AAA67F691752BE5FDA177BF /* FlyAlert-dummy.m in Sources */,
+				04D47CB72003EF3400FB8185 /* MKTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		866EF0FFB53295F0EF21B3299725FD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlyAlert;
+			target = 472AF1D36595E2D1EF27509727CB2771 /* FlyAlert */;
+			targetProxy = 2E5F02BF41C7B418047628738B816D2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		39962ED66D20E19009DCB0783699D3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50A8B7B57CF6BE8B85758F10D0C3C0B /* Pods-FlyAlert_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyAlert_Example/Pods-FlyAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlyAlert_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5645E923545A103E28CE1AE823DACFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCB64CF4CCA15F8F820E0B8FAD024FB /* Pods-FlyAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyAlert_Tests/Pods-FlyAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlyAlert_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EB0A528BF6D5E7A25189185E627F087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E676734F17A1CE02D68CFFE8753793F4 /* Pods-FlyAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyAlert_Example/Pods-FlyAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlyAlert_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E696EBF3EE7E1D3AF0EE3A4B115077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837B54E1CA47CF1138E062839A1B18EE /* FlyAlert.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlyAlert/FlyAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlyAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlyAlert/FlyAlert.modulemap";
+				PRODUCT_NAME = FlyAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C6A2E25278993F813334DBE692F3FB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F4D88F28C234AAAFB46A5AE455D02D /* Pods-FlyAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyAlert_Tests/Pods-FlyAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlyAlert_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAB91304A6B839BF976D2584E05BF13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837B54E1CA47CF1138E062839A1B18EE /* FlyAlert.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlyAlert/FlyAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlyAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlyAlert/FlyAlert.modulemap";
+				PRODUCT_NAME = FlyAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4C2EA7FC4BF6BE4A3D615408A1DA7B /* Build configuration list for PBXNativeTarget "Pods-FlyAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A2E25278993F813334DBE692F3FB6B /* Debug */,
+				5645E923545A103E28CE1AE823DACFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD246A5788D71EBBB70DD171E7F61973 /* Build configuration list for PBXNativeTarget "Pods-FlyAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB0A528BF6D5E7A25189185E627F087 /* Debug */,
+				39962ED66D20E19009DCB0783699D3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DB95EF831D9B56E2BA510B3B992A1E /* Build configuration list for PBXNativeTarget "FlyAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E696EBF3EE7E1D3AF0EE3A4B115077 /* Debug */,
+				CAB91304A6B839BF976D2584E05BF13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

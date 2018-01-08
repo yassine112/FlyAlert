@@ -1,0 +1,22 @@
+{
+  "name": "FlyAlert",
+  "version": "0.1.0",
+  "summary": "A short description of FlyAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yassine112/FlyAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yassine112": "yassine.el.halaoui1@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yassine112/FlyAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlyAlert/Classes/**/*"
+}

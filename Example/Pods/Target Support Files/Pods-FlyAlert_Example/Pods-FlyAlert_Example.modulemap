@@ -1,0 +1,6 @@
+framework module Pods_FlyAlert_Example {
+  umbrella header "Pods-FlyAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

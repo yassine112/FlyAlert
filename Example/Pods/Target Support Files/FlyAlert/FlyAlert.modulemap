@@ -1,0 +1,6 @@
+framework module FlyAlert {
+  umbrella header "FlyAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
