@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlyAlert'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of FlyAlert.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ costume alert
   s.homepage         = 'https://github.com/yassine112/FlyAlert'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yassine112' => 'yassine.el.halaoui1@gmail.com' }
+  s.author           = { 'Yassine el halaoui' => 'yassine.el.halaoui1@gmail.com' }
   s.source           = { :git => 'https://github.com/yassine112/FlyAlert.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,9 @@ costume alert
 
   s.source_files = 'FlyAlert/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FlyAlert' => ['FlyAlert/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'FlyAlert' => ['FlyAlert/Classes/*.xib', 'FlyAlert/Classes/*.ttf']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
