@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlyAlert_Example' do
+  pod 'FlyAlert', :path => '../'
+
+  target 'FlyAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
