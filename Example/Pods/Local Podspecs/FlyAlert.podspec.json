@@ -1,22 +1,28 @@
 {
   "name": "FlyAlert",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "summary": "A short description of FlyAlert.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "costume alert used to show alert in application",
   "homepage": "https://github.com/yassine112/FlyAlert",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yassine112": "yassine.el.halaoui1@gmail.com"
+    "Yassine el halaoui": "yassine.el.halaoui1@gmail.com"
   },
   "source": {
     "git": "https://github.com/yassine112/FlyAlert.git",
-    "tag": "0.1.0"
+    "tag": "3.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "FlyAlert/Classes/**/*"
+  "source_files": "FlyAlert/Classes/*",
+  "resource_bundles": {
+    "FlyAlert": [
+      "FlyAlert/Classes/*.xib",
+      "FlyAlert/Classes/*.ttf"
+    ]
+  }
 }

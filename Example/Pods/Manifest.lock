@@ -1,5 +1,5 @@
 PODS:
-  - FlyAlert (0.1.0)
+  - FlyAlert (3.0.0)
 
 DEPENDENCIES:
   - FlyAlert (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FlyAlert: f0791b22f075a3a0571147182eb86b179c327271
+  FlyAlert: 1f50e7cbe700911ef2ab742424e406e48560bcfc
 
 PODFILE CHECKSUM: 5ca7f75b497baf2082ab51eaf2c963c8239af1ca
 
