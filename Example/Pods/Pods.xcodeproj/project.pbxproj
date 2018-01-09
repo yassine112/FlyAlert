@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D47CB72003EF3400FB8185 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D47CB42003EF3400FB8185 /* MKTableViewCell.swift */; };
-		04D47CB82003EF3400FB8185 /* MKListAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D47CB52003EF3400FB8185 /* MKListAlert.swift */; };
+		04D47CBD2004C60000FB8185 /* MKListAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D47CB92004C60000FB8185 /* MKListAlert.swift */; };
+		04D47CBE2004C60000FB8185 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D47CBA2004C60000FB8185 /* MKTableViewCell.swift */; };
 		1E3C5119B0E225D31A58A3393F09F377 /* Pods-FlyAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 492753B78E4EA7D5A39C5535406B10EE /* Pods-FlyAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D1652D22C696E22D928F9FF8723AB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7EBAF94F415A18D4AE3252A1281B5209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -31,10 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04D47CB32003EF3400FB8185 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		04D47CB42003EF3400FB8185 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
-		04D47CB52003EF3400FB8185 /* MKListAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKListAlert.swift; sourceTree = "<group>"; };
-		04D47CB62003EF3400FB8185 /* MKTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKTableViewCell.xib; sourceTree = "<group>"; };
+		04D47CB92004C60000FB8185 /* MKListAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKListAlert.swift; path = FlyAlert/Classes/MKListAlert.swift; sourceTree = "<group>"; };
+		04D47CBA2004C60000FB8185 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKTableViewCell.swift; path = FlyAlert/Classes/MKTableViewCell.swift; sourceTree = "<group>"; };
+		04D47CBB2004C60000FB8185 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "FlyAlert/Classes/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		04D47CBC2004C60000FB8185 /* MKTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MKTableViewCell.xib; path = FlyAlert/Classes/MKTableViewCell.xib; sourceTree = "<group>"; };
 		172F29EFEF3063D9BB7E6639EBBF1A0A /* Pods-FlyAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyAlert_Tests-resources.sh"; sourceTree = "<group>"; };
 		274B06033E715107BC5AB916A14D564C /* Pods-FlyAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2CFDA6BC771B4E10E191CEC98C08CBA2 /* Pods-FlyAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlyAlert_Tests.modulemap"; sourceTree = "<group>"; };
@@ -107,10 +107,10 @@
 		317C2986A047FC67A4C4DDDE836C116B /* FlyAlert */ = {
 			isa = PBXGroup;
 			children = (
-				04D47CB52003EF3400FB8185 /* MKListAlert.swift */,
-				04D47CB42003EF3400FB8185 /* MKTableViewCell.swift */,
-				04D47CB62003EF3400FB8185 /* MKTableViewCell.xib */,
-				04D47CB32003EF3400FB8185 /* Poppins-SemiBold.ttf */,
+				04D47CB92004C60000FB8185 /* MKListAlert.swift */,
+				04D47CBA2004C60000FB8185 /* MKTableViewCell.swift */,
+				04D47CBC2004C60000FB8185 /* MKTableViewCell.xib */,
+				04D47CBB2004C60000FB8185 /* Poppins-SemiBold.ttf */,
 				D70F73619AC698BC1BAA8D2C446996C1 /* Support Files */,
 			);
 			name = FlyAlert;
@@ -349,9 +349,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D47CB82003EF3400FB8185 /* MKListAlert.swift in Sources */,
+				04D47CBD2004C60000FB8185 /* MKListAlert.swift in Sources */,
 				F4FCDE186AAA67F691752BE5FDA177BF /* FlyAlert-dummy.m in Sources */,
-				04D47CB72003EF3400FB8185 /* MKTableViewCell.swift in Sources */,
+				04D47CBE2004C60000FB8185 /* MKTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
