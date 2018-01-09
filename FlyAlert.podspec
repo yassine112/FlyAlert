@@ -30,7 +30,7 @@ costume alert
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FlyAlert/Classes/**/*'
+  s.source_files = 'FlyAlert/Classes/*'
   
    s.resource_bundles = {
      'FlyAlert' => ['FlyAlert/Classes/*.xib', 'FlyAlert/Classes/*.ttf']
